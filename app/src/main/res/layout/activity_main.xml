@@ -8,5 +8,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
-
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        tools:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintTop_toTopOf="parent" />
 </RelativeLayout>
